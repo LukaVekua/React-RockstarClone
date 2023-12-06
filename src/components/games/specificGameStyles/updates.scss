@@ -1,0 +1,71 @@
+.game-updates {
+    margin: 2rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+
+    #section-header {
+        margin-left: 3rem;
+        font-family: 'Frenstyle';
+    }
+
+    .inner-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    #wrapper {
+        width: 45%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #464545;
+        border-radius: 5px;
+        cursor: pointer;
+
+
+        img {
+            width: 100%;
+            height: 60%;
+
+        }
+
+        #update-details {
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+
+            header {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                margin-top: 2.5rem;
+
+                span {
+                    color: white;
+                    font-size: 1.2rem;
+                    margin-left: 3rem;
+
+                    &:nth-child(1) {
+                        font-family: 'Rockstar';
+                    }
+
+                    &:nth-child(2) {
+                        color: #595757;
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 1.8rem;
+                width: 80%;
+                margin-left: 3rem;
+            }
+        }
+    }
+}

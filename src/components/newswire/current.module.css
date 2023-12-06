@@ -1,0 +1,49 @@
+.currentNewswire {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+#banner {
+    width: 70%;
+    height: 100%;
+}
+
+.curr_details {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.curr_details>h2 {
+    width: 70%;
+    font-family: 'Rockstar';
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#details {
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+
+}
+
+#details>span {
+    margin-left: 2rem;
+}
+
+#details>span:nth-child(1) {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.relaseDate {
+    color: #e8e8e8;
+    font-size: 1.1rem;
+}

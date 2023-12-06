@@ -1,0 +1,75 @@
+.swiper {
+    width: 100%;
+    height: 80vh;
+
+
+}
+
+.slide>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.slide img {
+    width: 70%;
+    height: 100%;
+}
+
+.slide #details {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.watch {
+    align-self: center;
+    padding: 15px 40px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Rockstar';
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slide span {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    align-self: flex-start;
+    margin-left: 2.7rem;
+}
+
+.slide h2 {
+    font-size: 3rem;
+    font-family: 'Rockstar';
+    width: 80%;
+    margin-left: 2.5rem;
+    color: white;
+}
+
+.slideActions {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideActions img {
+    width: 70px;
+    height: 70px;
+}
+
+.slideActions>button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}

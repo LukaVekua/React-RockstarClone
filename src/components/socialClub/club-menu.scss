@@ -1,0 +1,39 @@
+.club-menu {
+    width: 300px;
+    height: 130px;
+    border: 1px solid #5a5757;
+    top: 4rem;
+    right: 0;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgba(18, 18, 18, 0.6);
+    border-radius: 10px;
+    z-index: 3;
+
+    #ico {
+        width: 2.8rem;
+        height: 2.8rem;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    .menu-row {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #5a5757;
+
+        span {
+            font-size: 1.1rem;
+            font-family: "Frenstyle";
+            color: white;
+            letter-spacing: 2px;
+            margin-left: 1rem;
+        }
+
+    }
+}

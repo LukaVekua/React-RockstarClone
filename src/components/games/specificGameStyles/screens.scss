@@ -1,0 +1,21 @@
+.screens {
+    margin: 2rem auto;
+    width: 90%;
+
+    h2 {
+        font-size: 1.5rem;
+        font-family: 'Frenstyle';
+    }
+
+    .imgs {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        img {
+            width: 40%;
+            height: 250px;
+        }
+    }
+}

@@ -1,0 +1,163 @@
+// rockstar yellow #fcaf17
+// grayish #E8E8E8
+// dark red #CC0000
+
+#club-auth {
+    width: 50%;
+    height: 70vh;
+    margin: 5rem auto;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    img {
+        width: 350px;
+        margin-bottom: 1rem;
+    }
+
+    #register-container {
+        width: 60%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+
+        header {
+            margin: 1rem auto;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 8%;
+
+
+            .step {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: white;
+            }
+
+
+            .done {
+                background-color: #fcaf17;
+                border: none;
+            }
+
+            .line {
+                width: 153px;
+                height: 1.5px;
+                background-color: white;
+            }
+
+
+        }
+
+        .form {
+            margin: 1rem auto;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Shadows Into Light';
+
+            .validation-warning {
+                font-family: 'Rockstar';
+                color: #CC0000;
+                font-size: 1rem;
+                align-self: flex-start;
+                margin-left: 1rem;
+                margin-bottom: .2rem;
+            }
+
+            h3 {
+                color: white;
+                font-size: 1.7rem;
+                width: 90%;
+                font-family: 'Rockstar';
+
+
+            }
+
+            .fedback-validation {
+                color: white;
+                font-size: 1.3rem;
+                width: 80%;
+                font-family: 'Rockstar';
+                text-decoration: 3px underline #fcaf17;
+                line-height: 2rem;
+                text-align: center;
+            }
+
+            .check {
+                width: 35px;
+
+            }
+
+            footer {
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+
+                label {
+                    color: white;
+                    font-family: 'Rockstar';
+                }
+            }
+
+            .input {
+                width: 90%;
+                height: 34px;
+                margin-bottom: 2rem;
+                background-color: rgb(255, 255, 255, .2);
+                font-size: 1.4rem;
+                border: none;
+                color: #fcaf17;
+                font-family: 'Shadows Into Light', cursive;
+                border-radius: 10px;
+                text-align: center;
+
+                &::placeholder {
+                    color: #89641a;
+                    text-align: center;
+
+                }
+            }
+        }
+
+        #next-btn {
+            padding: 5px 25px;
+            font-size: 1.6rem;
+            align-self: flex-end;
+            font-family: 'Shadows Into Light';
+            background-color: #fcaf17;
+            color: white;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-radius: 10px;
+            color: black;
+            cursor: pointer;
+
+        }
+
+    }
+}
+
+#home-btn {
+    background: none;
+    border: none;
+    margin-top: -3rem;
+    cursor: pointer;
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+}
